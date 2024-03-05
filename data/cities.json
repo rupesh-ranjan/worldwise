@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,31 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
-    },
-    {
-      "cityName": "Somewhere",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 984431297
-    },
-    {
-      "cityName": "Anywhere",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 178067513
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -58,7 +34,103 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "bb18",
+      "cityName": "Kolkata",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-03-05T11:30:35.294Z",
+      "notes": "My Current Location",
+      "position": {
+        "lat": "22.58292660696385",
+        "lng": "88.47118377685547"
+      }
+    },
+    {
+      "id": "421e",
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-05T11:40:38.129Z",
+      "notes": "sadfgjhk",
+      "position": {
+        "lat": "40.01590268113183",
+        "lng": "-0.000171661376953125"
+      }
+    },
+    {
+      "id": "1226",
+      "cityName": "Balearic Sea",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-05T11:41:40.968Z",
+      "notes": "dfsgjh",
+      "position": {
+        "lat": "40.61743340122135",
+        "lng": "0.6262207031250001"
+      }
+    },
+    {
+      "id": "8d5f",
+      "cityName": "Orrios",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-05T11:45:38.456Z",
+      "notes": "dfgdhj",
+      "position": {
+        "lat": "40.57604317675314",
+        "lng": "-0.9008789062500001"
+      }
+    },
+    {
+      "id": "d293",
+      "cityName": "Orrios",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-05T11:45:38.456Z",
+      "notes": "dfgdhjaSDFGHJK",
+      "position": {
+        "lat": "40.57604317675314",
+        "lng": "-0.9008789062500001"
+      }
+    },
+    {
+      "id": "c216",
+      "cityName": "Check",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-05T11:47:24.874Z",
+      "notes": "Check",
+      "position": {
+        "lat": "40.349892826935324",
+        "lng": "-1.8566894531250002"
+      }
+    },
+    {
+      "id": "3d73",
+      "cityName": "Tst",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-05T11:48:16.667Z",
+      "notes": "Test",
+      "position": {
+        "lat": "40.01408164460389",
+        "lng": "-2.5927734375000004"
+      }
+    },
+    {
+      "id": "f618",
+      "cityName": "Test1",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-03-05T11:48:59.079Z",
+      "notes": "sadfghjlk",
+      "position": {
+        "lat": "39.604690866321675",
+        "lng": "-3.8946533203125004"
+      }
     }
   ]
 }

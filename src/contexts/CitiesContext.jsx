@@ -6,20 +6,20 @@ const CitiesContext = createContext();
 
 function CitiesProvider({ children }) {
   const [cities, setCities] = useState([]);
-  const [isLoading, seetIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const [currentCity, setCurrentCity] = useState({});
 
   useEffect(function () {
     async function fetchCities() {
       try {
-        seetIsLoading(true);
+        setIsLoading(true);
         const response = await fetch(`${BASE_URL}/cities`);
         const data = await response.json();
         setCities(data);
       } catch (error) {
         alert("There is an error");
       } finally {
-        seetIsLoading(false);
+        setIsLoading(false);
       }
     }
     fetchCities();
@@ -27,14 +27,33 @@ function CitiesProvider({ children }) {
 
   async function getCity(id) {
     try {
-      seetIsLoading(true);
+      setIsLoading(true);
       const response = await fetch(`${BASE_URL}/cities/${id}`);
       const data = await response.json();
       setCurrentCity(data);
     } catch (error) {
-      alert("There is an error");
+      alert("There is an error in fetching data" + error);
     } finally {
-      seetIsLoading(false);
+      setIsLoading(false);
+    }
+  }
+
+  async function createCity(newCity) {
+    try {
+      setIsLoading(true);
+      const response = await fetch(`${BASE_URL}/cities`, {
+        method: "Post",
+        body: JSON.stringify(newCity),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      const data = await response.json();
+      setCities((cities) => [...cities, data]);
+    } catch (error) {
+      alert("There is an error in posting data" + error);
+    } finally {
+      setIsLoading(false);
     }
   }
 
@@ -45,6 +64,7 @@ function CitiesProvider({ children }) {
         isLoading,
         currentCity,
         getCity,
+        createCity,
       }}
     >
       {children}
